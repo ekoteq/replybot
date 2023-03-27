@@ -1,4 +1,4 @@
-# Configuration Seetup
+# Configuration Setup
 The config file hosts all major settings that the bot uses.
 
 The bot will not run without a config file, but a default file will be created if one does not exist.
