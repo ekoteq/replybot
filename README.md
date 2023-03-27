@@ -153,7 +153,7 @@ bot's secret token beside the 'DISCORD_TOKEN' entry.
 	the "Manage Server" permission on the server they wish to invite the bot to.
 
 ## Token Reset
-1. Click the "Oauth2" tab on the left side of the screen.
+1. Click the "Bot" tab on the left side of the screen.
 
 2. Click the "Reset Secret" button to generate your bot's secret token, used to connect to the API and gateway.
 
