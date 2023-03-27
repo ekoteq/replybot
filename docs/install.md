@@ -13,7 +13,7 @@
 	- Linux: Press the Super key and type "terminal" and press enter.
 	- Mac: Press the Command key and type "terminal" and press enter.
 
-4. Change directories into the folder where the `main.py` file is located.
+4. Change directories into the folder where the `core.py` file is located.
 	- The command to change directories is `cd <path>` ex: `cd ./replybot`.
 
 5. If you plan to use a virtual environment, you will need to install additional dependencies
