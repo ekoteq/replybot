@@ -160,7 +160,7 @@ bot's secret token beside the 'DISCORD_TOKEN' entry.
 3. Copy the token and paste it into the `.env` file in the `DISCORD_TOKEN` field. You will not have access to this
 token via the website again, so be sure to save it before you leave the page.
 
-# Configuration Seetup
+# Configuration Setup
 The config file hosts all major settings that the bot uses.
 
 The bot will not run without a config file, but a default file will be created if one does not exist.
