@@ -244,8 +244,11 @@ class Commands(Cog):
         usage = "last [user]",
         guild_ids = [474389512684961813]
     )
-    async def last(self, ctx, *, user: discord.Option(discord.User, description = "The user whose message to retrieve.", required = True)) -> None:
+    async def last(self, ctx, *, user: discord.Option(discord.User, description = "The user whose message to retrieve.", required = False)) -> None:
         response_cog = self.bot.get_cog("Responses")
+
+        if user == None:
+            user = ctx.author
 
         # get the last message from the cache
         embed = await response_cog.create_user_message_embed(user)
