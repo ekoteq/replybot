@@ -34,11 +34,3 @@ bot's secret token beside the 'DISCORD_TOKEN' entry.
 10. The generated URL may be used to invite your new bot user to any server.
 	- Those interested in inviting your bot to their server will need to have
 	the "Manage Server" permission on the server they wish to invite the bot to.
-	
-## Token Reset
-1. Click the "Bot" tab on the left side of the screen.
-
-2. Click the "Reset Secret" button to generate your bot's secret token, used to connect to the API and gateway.
-
-3. Copy the token and paste it into the `.env` file in the `DISCORD_TOKEN` field. You will not have access to this
-token via the website again, so be sure to save it before you leave the page.

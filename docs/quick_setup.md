@@ -7,7 +7,11 @@ mode is not available for headless or command-line environments.
 
 2. Download a copy of this repository and save it somewhere.
 
-3. Open a command prompt and run the following commands:
+3. Modify the .env and config.json files with relevant secrets and settings.
+
+4. Right-click either the `start.pyw` or `core.py` files and open it with Python.
+
+5. Open a command prompt and run the following commands:
 	1. `cd <path to bot folder>`
 
 	2. OPTIONAL:
@@ -17,8 +21,10 @@ mode is not available for headless or command-line environments.
 
 		3. `venv\Scripts\activate.bat`
 
-	3. `python -m pip install -r requirements.txt`
-	
-4. Modify the .env and config.json files with relevant secrets and settings.
+	2. `python -m pip install -r requirements.txt`
 
-5. Right-click either the `start.pyw` or `core.py` files and open it with Python.
+	3. Update the .env file with relevant secrets
+
+	4. Update the config.json file with relevant settings
+
+	5. Right click desired script and open with Python.

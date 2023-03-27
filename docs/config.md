@@ -1,9 +1,9 @@
-# Configuration Setup
+# Configuration Seetup
 The config file hosts all major settings that the bot uses.
 
 The bot will not run without a config file, but a default file will be created if one does not exist.
 
-## Properties
+##Properties
 ### cache_file_name
 The name of the file that the bot will use to store the cache. The file will be
 created in the same directory as the bot's executable.

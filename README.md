@@ -54,7 +54,11 @@ mode is not available for headless or command-line environments.
 
 2. Download a copy of this repository and save it somewhere.
 
-3. Open a command prompt and run the following commands:
+3. Modify the .env and config.json files with relevant secrets and settings.
+
+4. Right-click either the `start.pyw` or `core.py` files and open it with Python.
+
+5. Open a command prompt and run the following commands:
 	1. `cd <path to bot folder>`
 
 	2. OPTIONAL:
@@ -64,11 +68,13 @@ mode is not available for headless or command-line environments.
 
 		3. `venv\Scripts\activate.bat`
 
-	3. `python -m pip install -r requirements.txt`
-	
-4. Modify the .env and config.json files with relevant secrets and settings.
+	2. `python -m pip install -r requirements.txt`
 
-5. Right-click either the `start.pyw` or `core.py` files and open it with Python.
+	3. Update the .env file with relevant secrets
+
+	4. Update the config.json file with relevant settings
+
+	5. Right click desired script and open with Python.
 
 # Installation
 1. Obtain a copy of Python v3.11 or higher and install it on the same system where the
@@ -85,7 +91,7 @@ mode is not available for headless or command-line environments.
 	- Linux: Press the Super key and type "terminal" and press enter.
 	- Mac: Press the Command key and type "terminal" and press enter.
 
-4. Change directories into the folder where the `core.py` file is located.
+4. Change directories into the folder where the `main.py` file is located.
 	- The command to change directories is `cd <path>` ex: `cd ./replybot`.
 
 5. If you plan to use a virtual environment, you will need to install additional dependencies
@@ -147,14 +153,14 @@ bot's secret token beside the 'DISCORD_TOKEN' entry.
 	the "Manage Server" permission on the server they wish to invite the bot to.
 
 ## Token Reset
-1. Click the "Bot" tab on the left side of the screen.
+1. Click the "Oauth2" tab on the left side of the screen.
 
 2. Click the "Reset Secret" button to generate your bot's secret token, used to connect to the API and gateway.
 
 3. Copy the token and paste it into the `.env` file in the `DISCORD_TOKEN` field. You will not have access to this
 token via the website again, so be sure to save it before you leave the page.
 
-# Configuration Setup
+# Configuration Seetup
 The config file hosts all major settings that the bot uses.
 
 The bot will not run without a config file, but a default file will be created if one does not exist.
@@ -238,7 +244,7 @@ comma-separated numbers.
 	debug output in the command prompt window.
 
 2. The bot process will terminate when your system shuts down. In the event you need to restart the bot,
-	simply restart your system and repeat step 2.
+	simply restart your system and repeat step 6.
 
 3. If you prefer to run the bot with a console window, which is useful when you are debugging,
 	simply run the `core.py` file instead, or run the `start.pyw` or `core.py` files from the command line
