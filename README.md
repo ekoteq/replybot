@@ -244,7 +244,7 @@ comma-separated numbers.
 	debug output in the command prompt window.
 
 2. The bot process will terminate when your system shuts down. In the event you need to restart the bot,
-	simply restart your system and repeat step 6.
+	simply restart your system and repeat step 2.
 
 3. If you prefer to run the bot with a console window, which is useful when you are debugging,
 	simply run the `core.py` file instead, or run the `start.pyw` or `core.py` files from the command line
